@@ -1,0 +1,252 @@
+/* navbar */
+
+#top_nav {
+  background-color: #daac00;
+  padding: 0 8%;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: rgba(255, 255, 255);
+  font-size: 20px;
+  padding-left: 25px;
+}
+#searchbox {
+  background-color: #fcc302;
+  color: white;
+  border: 0px;
+  border-radius: 0;
+  position: relative;
+  left: 47px;
+  box-shadow: 5px 10px 11px 0px #00000021;
+}
+#searchbox::placeholder {
+  color: white;
+}
+#searchbtn {
+  position: relative;
+  z-index: 99;
+  background-color: #00bec9;
+  color: white;
+  border: 0;
+  border-radius: 0;
+}
+
+@media only screen and (max-width: 960px) {
+  #searchform {
+    margin-bottom: 30px;
+    margin-top: 20px;
+    position: relative;
+    left: -20px;
+  }
+}
+
+/* banner */
+#banner {
+  background-color: #fcc302;
+  padding-bottom: 20px;
+}
+
+#bannertext h1 {
+  margin-top: 100px;
+  color: white;
+  font-size: 70px;
+}
+
+#bannertext p {
+  color: white;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+#banner-btn-1 {
+  background-color: #00bec9;
+  border: 2px solid #00bec9;
+  color: white;
+}
+#banner-btn-2 {
+  color: white;
+  border: 2px solid white;
+  margin-left: 15px;
+}
+
+@media only screen and (max-width: 1400px) {
+  #bannertext h1 {
+    font-size: 50px;
+  }
+  #banner {
+    padding-bottom: 70px;
+  }
+  #bannertext {
+    margin-top: 70px;
+  }
+}
+
+@media only screen and (max-width: 922px) {
+  #bannertext h1 {
+    font-size: 40px;
+  }
+
+  #bannertext {
+    margin-top: 35px;
+  }
+  #service-image {
+    padding-top: 10% !important;
+  }
+}
+
+/* service */
+#service-text {
+  padding-top: 10%;
+  padding-bottom: 5%;
+}
+#servicebtn {
+  color: white;
+  background-color: #fcc302;
+  border: 2px solid #fcc302;
+}
+#service-image {
+  padding: 5%;
+}
+#treatment {
+  background-color: #fcc302;
+  padding-bottom: 3rem;
+  padding-top: 3rem;
+}
+.treatment-card img {
+  border: 5px solid white;
+}
+.social-icons-btn button {
+  background-color: #fcc302;
+  border: 1px solid transparent;
+  border-radius: 50%;
+  color: white;
+}
+
+.social-icons-btn :hover {
+  background-color: #00bec9;
+}
+
+/* counter */
+
+#counter-section {
+  background-image: url('../images/dog-treat3.jpg');
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-position: center;
+  background-size: cover;
+}
+
+.counter-icon {
+  font-size: 70px;
+}
+
+@media only screen and (max-width: 500px) {
+  .counter-icon {
+    font-size: 50px;
+  }
+}
+
+/* blog */
+
+#blog {
+  padding-bottom: 70px;
+  padding-top: 70px;
+}
+#blog-title {
+  font-size: 50px;
+  font-weight: bolder;
+}
+#blog-p {
+  font-size: 20px;
+  margin-bottom: 70px;
+  font-weight: 600;
+}
+.article-detail {
+  padding: 15px;
+  width: 100%;
+  border: 1px solid rgb(185, 185, 185);
+  border-top: 0;
+}
+
+.article-date {
+  color: #00bec9;
+  font-weight: 500;
+}
+.article-link {
+  color: #00bec9;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: larger;
+}
+.img-res {
+  width: 100%;
+}
+
+/* footer */
+#footer {
+  background-color: #343434;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+#footer a {
+  color: white;
+  text-decoration: none;
+}
+#footer-form {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#footer-search-box {
+  background-color: #fcc302;
+  color: white;
+  border: 0;
+  padding: 15px;
+  width: 100%;
+  max-width: 250px;
+  position: relative;
+  left: 10px;
+}
+#footer-search-submit {
+  background-color: #00bec9;
+  color: white;
+  border: 0;
+  border-radius: 0;
+  padding: 15px 40px;
+}
+.social-icon button {
+  background-color: white;
+  border: 1px solid transparent;
+  border-radius: 50%;
+  color: black;
+}
+.social-icon {
+  margin: 4px;
+}
+
+@media only screen and (max-width: 1150px) {
+  #footer-search-box {
+    max-width: 200px;
+  }
+}
+@media only screen and (max-width: 973px) {
+  #footer-search-box {
+    max-width: 120px;
+  }
+}
+@media only screen and (max-width: 769px) {
+  #footer-search-box {
+    max-width: 200px;
+  }
+  #footer {
+    padding-top: 10px;
+  }
+  #footer h4 {
+    margin-top: 50px;
+  }
+}
+@media only screen and (max-width: 350px) {
+  #footer-search-box {
+    max-width: 130px;
+  }
+}
